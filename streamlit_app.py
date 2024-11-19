@@ -21,7 +21,7 @@ def load_data(file):
 data = load_data("https://raw.githubusercontent.com/mennoliefstingh/streamlit-squirrel-app/main/data/squirrel_census.csv")
 
 st.title("The Central Park Squirrel Census🐿")
-st.image("img/central_park.jpg")
+st.image("central_park.jpg")
 st.markdown(
     """As part of the [Squirrel Census](https://www.thesquirrelcensus.com/) in 2018, volunteers counted all squirrels in Central Park and
      recorded features like  their color, where they were sighted and whether they were doing anything 
